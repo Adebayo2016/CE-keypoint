@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:padding="20dp"
+    android:paddingTop="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:onClick="gns111"
+        android:id="@+id/gns111"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="GNS111" />
+
+    <Button
+        android:onClick="eec112"
+        android:id="@+id/eeec112"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/gns111"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="EEE112" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/cte121"
+        android:onClick="cte121"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="CTE121" />
+
+    <Button
+        android:onClick="sta110"
+        android:id="@+id/sta110"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="STA110" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/mth110"
+        android:onClick="mth110"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/gns111"
+        android:text="MTH110" />
+
+    <Button
+        android:onClick="gns101"
+        android:id="@+id/gns101"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="GNS101" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
